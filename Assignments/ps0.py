@@ -1,14 +1,14 @@
 # Problem set 0
 # Name: João Victor
 
-import numpy
+import numpy as np
 
 x = 5
 y = 8
 
 z = x + y
 
-a = numpy.log2(z)
+a = np.log2(z)
 
 print(a)
 
