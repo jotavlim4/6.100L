@@ -1,4 +1,3 @@
-
 ## TYPE THIS IN THE CONSOLE -- STRINGS ##
 a = 'me'
 b = "myself"
@@ -7,7 +6,7 @@ d = a + " " + b
 silly = a * 3
 
 s = "abc"
-len(s) 
+len(s)
 
 ## TYPE THIS IN THE CONSOLE -- INDEXING ##
 s = "abc"
@@ -22,15 +21,15 @@ s[-3]
 ## TYPE THIS IN THE CONSOLE -- SLICING ##
 s = "abcdefgh"
 s[3:6]
-s[3:6:2] 
+s[3:6:2]
 s[:]
-s[::-1] 
+s[::-1]
 s[4:1:-2]
 
 ## TYPE THIS IN THE CONSOLE - MANIPULATION ##
 s = "car"
 #s[0] = 'b'  # this is an error
-s = 'b'+s[1:len(s)] 
+s = 'b'+s[1:len(s)]
 
 #########################################
 ############### LECTURE ##########################
@@ -66,7 +65,7 @@ c = "musketeers"
 # print(5*num2)
 
 ############## YOU TRY IT ###############
-# Write a program that: 
+# Write a program that:
 # * Asks the user for a verb.
 # * Prints "I can _ better than you" where you replace _ with the verb.
 # * Then prints the verb 5 times in a row separated by spaces.
@@ -110,13 +109,13 @@ c = "musketeers"
 
 ############## YOU TRY IT ###############
 # Write a program that:
-# * Saves a secret number. 
+# * Saves a secret number.
 # * Asks the user for a number guess.
 # * Prints a bool depending on whether the guess matches the secret.
 
 # your code here
 
-    
+
 
 #########################################
 
@@ -178,9 +177,9 @@ c = "musketeers"
 
 ############## YOU TRY IT ###############
 # Write a program that:
-# * Saves a secret number. 
+# * Saves a secret number.
 # * Asks the user for a number guess.
-# * Prints whether the guess is too low, too high, or the same as the secret. 
+# * Prints whether the guess is too low, too high, or the same as the secret.
 
 # your code here
 
@@ -238,9 +237,9 @@ s[2::-1]
 #     print("int conversion")
 # if ( a == int(b) ) and ( str(a) == b ):
 #     print("int and str conversion")
-# else: 
+# else:
 #     print("interesting")
-    
+
 #########################################
 ############### END AT HOME ##########################
 #########################################
@@ -249,7 +248,7 @@ s[2::-1]
 #########################################
 ############### ANSWERS TO LECTURE ##########################
 #########################################
-# You Try It 1: Write a program that: 
+# You Try It 1: Write a program that:
 # * Asks the user for a verb.
 # * Prints "I can _ better than you" where you replace _ with the verb.
 # * Then prints the verb 5 times in a row separated by spaces.
@@ -264,7 +263,7 @@ s[2::-1]
 
 
 # You Try It 2: Write a program that:
-# * Saves a secret number. 
+# * Saves a secret number.
 # * Asks the user for a number guess.
 # * Prints a bool depending on whether the guess matches the secret.
 
@@ -290,9 +289,9 @@ s[2::-1]
 
 
 # You Try It 4: Write a program that:
-# * Saves a secret number. 
+# * Saves a secret number.
 # * Asks the user for a number guess.
-# * Prints whether the guess is too low, too high, or the same as the secret. 
+# * Prints whether the guess is too low, too high, or the same as the secret.
 
 # your code here
 # secret = 7

@@ -1,7 +1,5 @@
-## 6.100A PSet 1: Part B
-## Name:
-## Time Spent:
-## Collaborators:
+## 6.100L PSet 1: Part B
+## Name: João Victor
 
 ##########################################################################################
 ## Get user input for yearly_salary, portion_saved, cost_of_dream_home, semi_annual_raise below ##
