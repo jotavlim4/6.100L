@@ -1,17 +1,14 @@
-import math
-
-NUM = 1000
-count, low = 0, 0
-high = 1000
-answer = math.floor((high + low)/2)
-
-while answer != NUM:
+NUM = 987
+count, low, high = 0, 0, 1000
+while low <= high:
     count += 1
+    answer = (low + high) // 2 # arredonda para baixo
+    
     if answer < NUM:
         low = answer + 1
-    else:
+    elif answer > NUM:
         high = answer - 1
-    answer = math.floor((high + low)/2)
-
+    else:
+        break
 print(f"count: {count}")
 print(f"answer: {answer}")
