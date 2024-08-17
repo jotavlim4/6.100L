@@ -24,7 +24,7 @@ mid = k/2
 num_guesses = 0
 
 # newton method
-while abs(mid**2 - k) >= epsilon:
+while abs(mid**2 - k) > epsilon:
     num_guesses += 1
     mid = mid - (((mid**2)-k)/(2*mid))
    

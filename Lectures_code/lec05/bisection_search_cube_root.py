@@ -1,4 +1,4 @@
-x = 27
+x = -27
 abs_x = abs(x)
 epsilon = 0.00000000000001
 num_guesses, low = 0, 0

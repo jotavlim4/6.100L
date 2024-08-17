@@ -1,4 +1,4 @@
-x = 25
+x = 0.5
 epsilon = 0.01
 num_guesses, low = 0, 0
 high = max(1, x)
